@@ -12,4 +12,10 @@ app.service('dataService', function(){
       { text: 'Life is what happens to you while you\'re busy making other plans.', author: 'John Lennon'},
       { text: 'What even is a jQuery?', author: 'Tyler S. McGinnis'}
     ];
+    this.getData = function(){
+      return quotes[];
+    };
+    this.addData = function(){
+
+    };
 });

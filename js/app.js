@@ -1,1 +1,1 @@
-angular.module('quoteBook'[]);
+var app = angular.module('quoteBook', []);

@@ -1,4 +1,5 @@
-angular.module('quoteBook');
-.controller('mainCtrl', function($scope){
+var app = angular.module('quoteBook');
 
-})
+app.controller('mainCtrl', function($scope){
+$scope.test = 'testing';
+});
